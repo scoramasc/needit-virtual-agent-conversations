@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <connect_queue/>
+        <description>Topic to allow users to view their open NeedIt records.</description>
+        <graph>{
+  "graph_api_version": "1.0.10.mp4",
+  "goals": {
+    "6972410a563548b78c7cd3329626f6f1": {
+      "id": "6972410a563548b78c7cd3329626f6f1",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "d78350ea33fe409f91a76ca338a0afd6": {
+          "id": "d78350ea33fe409f91a76ca338a0afd6",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b41e6eaf1e574d779394cf7f306b812c": {
+          "id": "b41e6eaf1e574d779394cf7f306b812c",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "7c819e7ef66e4efcac215b03562d46fe",
+          "edgeType": "Edge",
+          "source": "d78350ea33fe409f91a76ca338a0afd6",
+          "target": "b41e6eaf1e574d779394cf7f306b812c",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>View Open NeedIt Records,NeedIt Request,need something</key_phrases>
+        <live_agent>false</live_agent>
+        <name>View Open NeedIt Records</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 07:02:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>60c59b260702001063e0f0269c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View Open NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_304843_needit_vi">1591aada07c6801063e0f0269c1ed094</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">1591aada07c6801063e0f0269c1ed094</sys_scope>
+        <sys_update_name>sys_cb_topic_60c59b260702001063e0f0269c1ed0b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 07:02:46</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=60c59b260702001063e0f0269c1ed0b4"/>
+</record_update>
